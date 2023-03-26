@@ -654,10 +654,6 @@ function createURL(_0xe87ax27, _0xe87ax31) {
     };
     $['objects'][_0xe87ax27 + '_' + _0xe87ax31['id']]['cursor'] = 'pointer';
     $['objects'][_0xe87ax27 + '_' + _0xe87ax31['id']]['addEventListener']('click', function(_0xe87ax25) {
-        gtag('event', 'click', {
-            '\x65\x76\x65\x6E\x74\x5F\x63\x61\x74\x65\x67\x6F\x72\x79': 'link',
-            '\x65\x76\x65\x6E\x74\x5F\x6C\x61\x62\x65\x6C': _0xe87ax31['link']
-        });
         window['open'](_0xe87ax31['link'], '_blank')
     })
 }
