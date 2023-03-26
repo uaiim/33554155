@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<options>
+		<colors>
+			<text>#fff</text>
+			<background>#00d2cd</background>
+		</colors>
+		<loader>assets/easterday/loader.png</loader>
+		<music audio="assets/easterday/easterday.ogg">true</music>
+		<fullscreen>true</fullscreen>
+	</options>
+	
+	<landscape enable="true" width="1920" height="1080" contentWidth="1600" contentHeight="850">
+		<greeting_cover enable="true" transition="true">
+			<item  x="1920" y="0" regX="908" regY="0">assets/easterday/item_cover_right.png</item>
+			<item  x="0" y="0" regX="0" regY="0">assets/easterday/item_cover_left.png</item>
+			<item  x="960" y="540">assets/easterday/button_open.png</item>
+		</greeting_cover>
+									
+		<design_elements>
+			<item id="stroke1" x="600" y="300" type="spritesheet" width="244" height="209" count="30" speed="1">assets/easterday/item_stroke_01.png</item>
+			<item id="stroke2" x="950" y="730" type="spritesheet" width="515" height="155" count="30" speed="1">assets/easterday/item_stroke_02.png</item>
+			<item id="stroke3" x="1300" y="300" type="spritesheet" width="326" height="261" count="32" speed="1">assets/easterday/item_stroke_03.png</item>
+			<item id="egg1" x="420" y="920">assets/easterday/item_egg1.png</item>
+			<item id="egg2" x="950" y="950">assets/easterday/item_egg2.png</item>
+			<item id="egg3" x="1500" y="920">assets/easterday/item_egg3.png</item>
+			<item id="ear1" x="640" y="1050" regX="378" regY="540">assets/easterday/item_ear1.png</item>
+			<item id="ear2" x="1250" y="1050" regX="90" regY="590">assets/easterday/item_ear2.png</item>
+			<item id="logo" x="960" y="300">assets/easterday/logo.png</item>
+		</design_elements>
+					
+		<text>
+			<item id="text1" font="35px Satisfy" lineHeight="40" color="#fff" align="center" x="960" y="460"><![CDATA[ The risen Christ is celebrated in every opened flower,
+			in every beam of nourishing sunlight,
+			in every small patch of green beneath our feet.
+			
+			Easter blessings. ]]></item>
+			<item id="text2" font="30px Oswald" lineHeight="30" color="#147F81" align="center" x="960" y="800"><![CDATA[ www.company.com ]]></item>
+		</text>
+		
+		<falling_effects enable="true" alpha="true" scale="true" total="15" wind="-2" speed="5" direction="true">
+			<item>assets/easterday/falling.png</item>
+		</falling_effects>
+		
+		<parrallax_effects>			
+			<item id="egg1" movement="xy" percentage="50" />
+			<item id="egg2" movement="xy" percentage="70" />
+			<item id="egg3" movement="xy" percentage="60" />
+			
+			<item id="ear1" movement="rotation" percentage="20" />
+			<item id="ear2" movement="rotation" percentage="25" />
+			
+			<item id="ear1" movement="x" percentage="170" />
+			<item id="ear2" movement="x" percentage="175" />
+		</parrallax_effects>
+		
+		<links>
+			<item id="text2" hitX="-200" hitY="-40" hitWidth="400" hitHeight="80">https://codecanyon.net/user/demonisblack</item>
+		</links>
+	</landscape>
+	
+	<portrait enable="true" width="768" height="1024" contentWidth="570" contentHeight="1024">
+		<greeting_cover enable="true" transition="true">
+			<item  x="384" y="0" regX="100" regY="0">assets/easterday/item_cover_right.png</item>
+			<item  x="0" y="0" regX="580" regY="0">assets/easterday/item_cover_left.png</item>
+			<item  x="384" y="512" scaleX=".7" scaleY=".7">assets/easterday/button_open.png</item>
+		</greeting_cover>
+									
+		<design_elements>
+			<item id="stroke1" x="150" y="200" type="spritesheet" width="244" height="209" count="30" speed="1">assets/easterday/item_stroke_01.png</item>
+			<item id="stroke2" x="384" y="660" type="spritesheet" width="515" height="155" count="30" speed="1">assets/easterday/item_stroke_02.png</item>
+			<item id="stroke3" x="700" y="300" type="spritesheet" width="326" height="261" count="30" speed="1">assets/easterday/item_stroke_03.png</item>
+			<item id="egg1" x="220" y="920" scaleX=".8" scaleY=".8">assets/easterday/item_egg1.png</item>
+			<item id="egg2" x="550" y="950" scaleX=".8" scaleY=".8">assets/easterday/item_egg2.png</item>
+			<item id="ear1" x="320" y="1050" regX="378" regY="540" scaleX=".7" scaleY=".7">assets/easterday/item_ear1.png</item>
+			<item id="ear2" x="470" y="1050" regX="90" regY="590" scaleX=".7" scaleY=".7">assets/easterday/item_ear2.png</item>
+			<item id="logo" x="384" y="280">assets/easterday/logo.png</item>
+		</design_elements>
+					
+		<text>
+			<item id="text1" font="25px Satisfy" lineHeight="30" color="#fff" align="center" x="384" y="430"><![CDATA[ The risen Christ is celebrated in every opened flower,
+			in every beam of nourishing sunlight,
+			in every small patch of green beneath our feet.
+			
+			Easter blessings. ]]></item>
+			<item id="text2" font="30px Oswald" lineHeight="30" color="#147F81" align="center" x="384" y="700"><![CDATA[ www.company.com ]]></item>
+			<item id="text3" font="20px Oswald" lineHeight="20" color="#fff" align="center" x="384" y="750"><![CDATA[ TOUCH TO MOVE ]]></item>
+		</text>
+		
+		<falling_effects enable="true" alpha="true" scale="true" total="10" wind="-2" speed="5" direction="true">
+			<item>assets/easterday/falling.png</item>
+		</falling_effects>
+		
+		<parrallax_effects>
+			<item id="egg1" movement="xy" percentage="50" />
+			<item id="egg2" movement="xy" percentage="70" />
+			<item id="egg3" movement="xy" percentage="60" />
+			
+			<item id="ear1" movement="rotation" percentage="20" />
+			<item id="ear2" movement="rotation" percentage="25" />
+			
+			<item id="ear1" movement="x" percentage="170" />
+			<item id="ear2" movement="x" percentage="175" />
+		</parrallax_effects>
+		
+		<links>
+			<item id="text2" hitX="-200" hitY="-40" hitWidth="400" hitHeight="80">https://codecanyon.net/user/demonisblack</item>
+		</links>
+	</portrait>
+</config>
