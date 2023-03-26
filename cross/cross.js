@@ -68,7 +68,7 @@ function checkHostname(url) {
     var newUrl = extractDomain(url);
 
     var redirect = false;
-    var urlRequest = ['www.demonisblack.com', 'demonisblack', 'codecanyon.net', 'preview.codecanyon.net', 'localhost', newUrl];
+    var urlRequest = ['uaiim.github.io', 'demonisblack', 'codecanyon.net', 'preview.codecanyon.net', 'localhost', newUrl];
     details.trust = true;
 
     if (urlRequest.indexOf(newHostname) == -1) {
