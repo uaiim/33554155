@@ -78,13 +78,9 @@
 		</design_elements>
 					
 		<text>
-			<item id="text1" font="25px Satisfy" lineHeight="30" color="#fff" align="center" x="384" y="430"><![CDATA[ The risen Christ is celebrated in every opened flower,
-			in every beam of nourishing sunlight,
-			in every small patch of green beneath our feet.
-			
-			Easter blessings. ]]></item>
+			<item id="text1" font="25px Satisfy" lineHeight="30" color="#fff" align="center" x="384" y="430"><![CDATA[ - ]]></item>
 			<item id="text2" font="30px Oswald" lineHeight="30" color="#147F81" align="center" x="384" y="700"><![CDATA[ Egg Lyrics ]]></item>
-			<item id="text3" font="20px Oswald" lineHeight="20" color="#fff" align="center" x="384" y="750"><![CDATA[ ON YOUTUBE ]]></item>
+			<item id="text3" font="20px Oswald" lineHeight="20" color="#fff" align="center" x="384" y="750"><![CDATA[ YOUTUBE ]]></item>
 		</text>
 		
 		<falling_effects enable="true" alpha="true" scale="true" total="10" wind="-2" speed="5" direction="true">
