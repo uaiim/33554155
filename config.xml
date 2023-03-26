@@ -30,12 +30,8 @@
 		</design_elements>
 					
 		<text>
-			<item id="text1" font="35px Satisfy" lineHeight="40" color="#fff" align="center" x="960" y="460"><![CDATA[ The risen Christ is celebrated in every opened flower,
-			in every beam of nourishing sunlight,
-			in every small patch of green beneath our feet.
-			
-			Easter blessings. ]]></item>
-			<item id="text2" font="30px Oswald" lineHeight="30" color="#147F81" align="center" x="960" y="800"><![CDATA[ www.company.com ]]></item>
+			<item id="text1" font="35px Satisfy" lineHeight="40" color="#fff" align="center" x="960" y="460"><![CDATA[ - ]]></item>
+			<item id="text2" font="30px Oswald" lineHeight="30" color="#147F81" align="center" x="960" y="800"><![CDATA[ Egg Lyrics ]]></item>
 		</text>
 		
 		<falling_effects enable="true" alpha="true" scale="true" total="15" wind="-2" speed="5" direction="true">
