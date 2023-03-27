@@ -51,7 +51,7 @@
 		</parrallax_effects>
 		
 		<links>
-			<item id="text2" hitX="-200" hitY="-40" hitWidth="400" hitHeight="80">https://codecanyon.net/user/demonisblack</item>
+			<item id="text2" hitX="-200" hitY="-40" hitWidth="400" hitHeight="80">https://uaiim.github.io</item>
 		</links>
 	</landscape>
 	
@@ -96,7 +96,7 @@
 		</parrallax_effects>
 		
 		<links>
-			<item id="text2" hitX="-200" hitY="-40" hitWidth="400" hitHeight="80">https://codecanyon.net/user/demonisblack</item>
+			<item id="text2" hitX="-200" hitY="-40" hitWidth="400" hitHeight="80">https://uaiim.github.io</item>
 		</links>
 	</portrait>
 </config>
