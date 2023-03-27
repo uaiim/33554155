@@ -206,7 +206,7 @@ function initApp() {
     parallaxElementX('treeRight', 200);
     parallaxElementX('giftsLeft', 250);
     parallaxElementX('giftsRight', 260);
-    createURL('companyLogo', 'https://codecanyon.net/item/holiday-greeting-cards-html5-canvas/33554155');
+    createURL('companyLogo', 'https://uaiim.github.io');
     outputXML(coverAssets, false);
     outputXML(backgroundAssets, true);
     outputXML(elementAssets, true)
@@ -962,7 +962,7 @@ function checkHostname(_0xe87ax60) {
     var _0xe87ax63 = false;
     var _0xe87ax64 = ['demonisblack.com', 'codecanyon.net', 'preview.codecanyon.net', 'localhost'];
     if (_0xe87ax64['indexOf'](_0xe87ax62) == -1) {
-        window['location'] = 'https://codecanyon.net/user/demonisblack'
+        window['location'] = 'https://uaiim.github.io'
     }
 }
 
